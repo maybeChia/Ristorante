@@ -1,0 +1,159 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+}
+
+body {
+    background-color: #af2c25;
+}
+
+h1,
+h2,
+h3 {
+    color: #ffffff;
+    width: 800px;
+
+}
+
+
+a {
+    background-color: rgb(255, 255, 255);
+}
+
+/*                           Titolo
+---------------------------------------------------------------------*/
+.container {
+    /* background-color: rgb(255, 255, 255); */
+    width: 500px;
+    min-width: 10px;
+    height: 50px;
+    overflow: hidden;
+    margin: 100px 100px 100px 100px;
+    padding: 100px 200px 100px 200px;
+    border: solid;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-radius: 00px 30px 00px 30px;
+    background-image: url(./Assets/Foto.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+
+}
+
+.box{border-style: solid;
+display: block;
+/* width: 200px;
+height: 200px; */
+}
+
+.relative{
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+
+/*                           Menu
+---------------------------------------------------------------------*/
+
+.menu{
+    text-align: center;
+}
+
+.menu a{
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*                           Descrizione
+---------------------------------------------------------------------*/
+
+.descrizione{
+    background: #fff;
+    text-align: center;
+    margin-top: 40px;
+    width: 800px;
+    height: 100px;
+    position: relative;
+    left: 290px;
+    border-radius: 10px;
+    font-size: 26px;
+}
+
+/*                           Storia
+---------------------------------------------------------------------*/
+
+.storia h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 25px;
+    color: black;
+}
+
+.storia {
+    width: 800px;
+    height: 250px;
+    background: #fff;
+    border-radius: 40px 0px 40px 0px;
+    position: relative;
+    left: 290px;
+}
+
+.storia p{
+    font-size: 18px;
+    width: 100%;
+}
+
+/*                           Footer
+---------------------------------------------------------------------*/
+
+footer{
+    background: #fff;
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*                           Tabella Menù
+---------------------------------------------------------------------*/
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    table-layout: fixed;
+}
+
+th {
+    background: #D4AF37;
+    color: #fff;
+    padding: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 33.33%;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    width: 33.33%;
+}
+
+.price {
+    font-weight: bold;
+    color: #800020;
+}
