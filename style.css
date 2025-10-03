@@ -32,6 +32,7 @@ a {
     height: 50px;
     overflow: hidden;
     margin: 100px 100px 100px 100px;
+    margin-top: 0px;
     padding: 100px 200px 100px 200px;
     border: solid;
     border-color: #ffffff;
@@ -47,8 +48,8 @@ a {
 
 .box{border-style: solid;
 display: block;
-/* width: 200px;
-height: 200px; */
+width: 150px;
+height: 150px;
 }
 
 .relative{
@@ -157,3 +158,4 @@ td {
     font-weight: bold;
     color: #800020;
 }
+
