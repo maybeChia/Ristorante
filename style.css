@@ -26,12 +26,12 @@ a {
 /*                           Titolo
 ---------------------------------------------------------------------*/
 .container {
-    /* background-color: rgb(255, 255, 255); */
+
     width: 500px;
     min-width: 10px;
     height: 50px;
     overflow: hidden;
-    margin: 100px 100px 100px 100px;
+    margin: 200px 100px 100px 100px;
     margin-top: 0px;
     padding: 100px 200px 100px 200px;
     border: solid;
@@ -42,17 +42,18 @@ a {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    
+
 
 }
 
-.box{border-style: solid;
-display: block;
-width: 150px;
-height: 150px;
+.box {
+    border-style: solid;
+    display: block;
+    width: 150px;
+    height: 150px;
 }
 
-.relative{
+.relative {
     position: relative;
     top: 50px;
     left: 150px;
@@ -62,27 +63,39 @@ height: 150px;
 /*                           Menu
 ---------------------------------------------------------------------*/
 
-.menu{
-    text-align: center;
+.menu {
+    text-align: right;
+    margin-right: 331px;
+    margin-top: -375px;
 }
 
-.menu a{
-    padding: 10px 10px;
-    border-radius: 5px;
+.menu a {
+    padding: 15px 15px;
+    border-radius: 20%;
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
+li {
+    list-style: none;
+}
+
+ul li {
+    margin: 0px;
+    padding: 30px 0;
+}
+
+
 /*                           Descrizione
 ---------------------------------------------------------------------*/
 
-.descrizione{
+.descrizione {
     background: #fff;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
     width: 800px;
-    height: 100px;
+    height: 85px;
     position: relative;
     left: 290px;
     border-radius: 10px;
@@ -92,7 +105,7 @@ height: 150px;
 /*                           Storia
 ---------------------------------------------------------------------*/
 
-.storia h2{
+.storia h2 {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
@@ -110,7 +123,7 @@ height: 150px;
     left: 290px;
 }
 
-.storia p{
+.storia p {
     font-size: 18px;
     width: 100%;
 }
@@ -118,7 +131,7 @@ height: 150px;
 /*                           Footer
 ---------------------------------------------------------------------*/
 
-footer{
+footer {
     background: #fff;
     height: 20px;
     text-align: center;
@@ -126,15 +139,16 @@ footer{
     font-weight: bold;
 }
 
+
 /*                           Tabella Menù
 ---------------------------------------------------------------------*/
 
 table {
     width: 80%;
-    margin: 20px auto;
+    margin: 30px auto;
     border-collapse: collapse;
     background: #fff;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     table-layout: fixed;
 }
 
@@ -159,3 +173,26 @@ td {
     color: #800020;
 }
 
+
+/*                           Menu 2
+---------------------------------------------------------------------*/
+
+.menu2 {
+    text-align: center;
+}
+
+.menu2 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+
+.titolo1 {
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    left: 310px;
+}
